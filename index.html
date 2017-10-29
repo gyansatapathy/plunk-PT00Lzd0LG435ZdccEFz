@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="MyGridApp">
+
+  <head>
+    <script data-require="angular.js@1.6.2" data-semver="1.6.2" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-touch/1.6.6/angular-touch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.7/ui-grid.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.7/ui-grid.css"></script>
+    <script src="script.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-grid/4.0.7/ui-grid.css">
+  </head>
+
+  <body>
+    <div ng-controller="bodyController">
+      <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+
+      {{gyan}}
+      {{userLinkTemplate}}
+    </div>
+  </body>
+
+</html>
